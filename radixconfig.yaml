@@ -7,7 +7,7 @@ spec:
     secrets:
       - SNYK_TOKEN
   environments:
-    - name: production
+    - name: dev
       build:
         from: master
   components:
