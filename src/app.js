@@ -17,6 +17,7 @@ var logHelper = require('./logHelper');
 var config = require('../config/config.js');
 var authUtil = require('../src/authutils');
 
+
 var log = logHelper.createLogger();
 
 log.info('Logger started, NODE_ENV=' + process.env.NODE_ENV);
