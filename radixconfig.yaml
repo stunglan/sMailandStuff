@@ -3,9 +3,6 @@ kind: RadixApplication
 metadata:
   name: knytssmailandstuff
 spec:
-  build:
-    secrets:
-      - SNYK_TOKEN
   environments:
     - name: production
       build:
