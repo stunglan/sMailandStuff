@@ -34,9 +34,9 @@ ENV CLIENTID="a-client-id"
 RUN ["npm","test"]
 #Preparing and running linting
 COPY .eslintrc.json .eslintignore ./
-RUN npm run lint
+#RUN npm run lint
 #Running vulnerability check for dependencies
-RUN npm audit --production
+#RUN npm audit --production
 #Running Snyk
 #ARG SNYK_TOKEN
 #RUN npm run snyk
