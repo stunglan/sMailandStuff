@@ -1,13 +1,13 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: smailandstuff
+  name: knytssmailandstuff
 spec:
   build:
     secrets:
       - SNYK_TOKEN
   environments:
-    - name: dev
+    - name: production
       build:
         from: master
   components:
